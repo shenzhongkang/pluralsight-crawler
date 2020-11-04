@@ -1,0 +1,31 @@
+{
+  "name": "pluralsight-crawler",
+  "version": "1.0.0",
+  "description": "Pull posts of https://www.pluralsight.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShenZhongkang/pluralsight-crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShenZhongkang/pluralsight-crawler/issues"
+  },
+  "homepage": "https://github.com/ShenZhongkang/pluralsight-crawler#readme",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.22",
+    "@types/superagent": "^4.1.10",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "superagent": "^6.1.0"
+  }
+}
